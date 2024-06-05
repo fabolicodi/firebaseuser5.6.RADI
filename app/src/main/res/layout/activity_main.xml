@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background">
+    <TextView
+        android:id="@+id/dobrodosli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Dobro došli, što želite učiniti?"
+        android:textSize="50sp"
+        android:textColor="@color/text"
+        android:gravity="center"
+        android:background="@null"
+        android:layout_marginTop="40dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnbor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy / order / reserve"
+        android:textSize="25dp"
+        android:textColor="@color/text"
+        android:background="@color/colorthings2"
+        app:layout_constraintTop_toBottomOf="@id/dobrodosli"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="50dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btneditprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit profile"
+        android:textSize="25dp"
+        android:textColor="@color/text"
+        android:background="@color/colorthings2"
+        app:layout_constraintTop_toBottomOf="@id/btnbor"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="50dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnhistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile history"
+        android:textSize="25dp"
+        android:textColor="@color/text"
+        android:background="@color/colorthings2"
+        app:layout_constraintTop_toBottomOf="@id/btneditprofile"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="50dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOpenURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press at own risk"
+        android:textSize="25dp"
+        android:textColor="@color/text"
+        android:background="@color/colorthings2"
+        app:layout_constraintTop_toBottomOf="@id/btnhistory"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="50dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

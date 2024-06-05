@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorthings2">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/ll"
+        android:background="@null"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/id"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="20sp"
+            android:textColor="@color/text"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ime"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="ime"
+            android:textColor="@color/text"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/prezime"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="@color/text"
+            android:text="prezime"
+            android:textSize="20sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pomoc1"
+        app:layout_constraintTop_toBottomOf="@id/ll"
+        android:text="Kompanija letenja: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text"
+        android:background="@null"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/nkzl"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/nkzl"
+        android:gravity="left"
+        android:background="@null"
+        android:text="nkzl"
+        android:textColor="@color/text"
+        app:layout_constraintTop_toBottomOf="@id/ll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toRightOf="@id/pomoc1"
+        app:layout_constraintRight_toLeftOf="@id/pomoc2"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pomoc2"
+        android:textColor="@color/text"
+        android:background="@null"
+        app:layout_constraintTop_toBottomOf="@id/ll"
+        android:text="Lokacija: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toRightOf="@id/nkzl"
+        app:layout_constraintRight_toLeftOf="@id/lokacija"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lokacija"
+        android:textColor="@color/text"
+        android:background="@null"
+        app:layout_constraintTop_toBottomOf="@id/ll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="lokacija"
+        app:layout_constraintLeft_toRightOf="@id/pomoc2"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Liste"
+        android:icon="@drawable/liste"
+        android:id="@+id/liste"/>
+    <item android:title="Favoriti"
+        android:icon="@drawable/favorited"
+        android:id="@+id/favoriti"/>
+    <item android:title="Profil"
+        android:icon="@drawable/profile"
+        android:id="@+id/profil"/>
+</menu>

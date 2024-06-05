@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">firebaseuser</string>
+    <string name="jes_glup_nisi_ime_napiso">Niste unjeli email</string>
+    <string name="nisi_lozinku_napisao">Niste unjeli lozinku</string>
+    <string name="uspjesna_prijava">Uspjesno ste se prijavili</string>
+    <string name="neuspjesna_prijava">Krivo ste unjeli email ili loznku. Pokušajte ponovo</string>
+    <string name="unesi_email">Unesite email</string>
+    <string name="unesi_pass">Unesite lozinku\n</string>
+    <string name="pass_kratak">Lozinka je pre kratka. Mora biti duža od 6 slova</string>
+    <string name="uspjesna_registracija">Uspjesno ste se registrirali</string>
+    <string name="neuspjesna_registracija">Neuspješna registracija. Pokušajte ponvo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="upload">upload</string>
+</resources>

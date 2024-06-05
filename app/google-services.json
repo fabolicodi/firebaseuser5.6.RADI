@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "375614336445",
+    "project_id": "fir-zrakoplov-b34cb",
+    "storage_bucket": "fir-zrakoplov-b34cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375614336445:android:c8ef9e29f31c203057b6d4",
+        "android_client_info": {
+          "package_name": "com.fabolicodi.firebaseuser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx1C3vwEACmV_guN0ZaKAHnj0MakIXdmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
